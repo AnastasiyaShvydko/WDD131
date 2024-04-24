@@ -1,0 +1,50 @@
+.parent{
+    display: grid;
+    grid-template: auto 1fr auto/auto 1fr auto ;
+}
+
+.header{
+    padding: 2em;
+    background-color: blueviolet;
+    grid-column: 1/4;
+    
+
+}
+.nav-bar{
+    background-color: rgb(46, 43, 226);
+    grid-column: 1/4;
+    
+    
+}
+.nav-menu{
+    padding: 0pt;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.main-section{
+    background-color: rgb(226, 43, 141);
+    grid-column: 2/3;
+    height: 500pt;
+   
+}
+.right-section{
+    background-color: rgb(189, 226, 43);
+    grid-column: 3/4;
+    height: 500pt;
+    
+   
+}
+.footer{
+    background-color: rgb(226, 104, 43);
+    grid-column: 1/4;
+    padding: 2em;
+    
+}
+@media only screen and (max-width: 600px) {
+    .nav-menu{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+  }
