@@ -10,13 +10,9 @@
     
 
 }
-.nav-bar{
-    background-color: rgb(46, 43, 226);
-    grid-column: 1/4;
-    
-    
-}
+
 .nav-menu{
+    background-color: rgb(46, 43, 226);
     padding: 0pt;
     list-style: none;
     display: flex;
