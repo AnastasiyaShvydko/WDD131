@@ -4,7 +4,7 @@
 }
 
 .header{
-    padding: 2em;
+  
     background-color: blueviolet;
     grid-column: 1/4;
     
@@ -16,8 +16,18 @@
     padding: 0pt;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    
 }
+.nav-menu a{
+    flex: 1 1 auto;
+    display: block;
+    color: #eee;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+
 .main-section{
     background-color: rgb(226, 43, 141);
     grid-column: 2/3;
