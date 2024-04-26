@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/layout.css">
+    <link rel="stylesheet" href="./styles/week1.css">
     <title>WDD 131 - Dynamic Web Fundamentals - Anastasiia Shvydko </title>
 </head>
 <body>
@@ -21,18 +21,54 @@
             
        
         <main class="main-section">
-            <section class="card"></section>
-            <section class="card"></section>
-            <h1>Anastasiia Shvydko WDD131</h1>
-            <img src="" alt="">
+            <section class="card">
+                <h1>About Me</h1>
+                <div class="info one">
+                    <img src="./images/my_image.jpeg" alt="photo of me">
+                    <p>Hello class, my name is Anastasiya. I'm from Russia, Moscow , 
+                        but currently I live in Canada, Toronto. My family it is my husband 
+                        and our three sons. My oldest is obsessed with programming too ,
+                        so I believe we could be colleagues in the future. I had degree in management but three years 
+                        ago after pathway connect program I've decided to get new education and started 
+                        my journey to bachelor degree in Applied Technologies, but now I switched to Software Development.</p>
+                </div>
+                <h1>Canada</h1>
+                <div class="info two">
+                    <img src="./images/flag.png" alt="Flag of Canada">
+                    <p>
+                        Canada is a country in North America. Its ten provinces 
+                        and three territories extend from the Atlantic Ocean to 
+                        the Pacific Ocean and northward into the Arctic Ocean, making 
+                        it the world's second-largest country by total area, with the
+                         world's longest coastline. Its border with the United States 
+                         is the world's longest international land border. The country 
+                         is characterized by a wide range of both meteorologic and geological 
+                         regions. It is a sparsely inhabited country of 40 million people,
+                          the vast majority residing south of the 55th parallel in urban areas. 
+                          Canada's capital is Ottawa and its three largest 
+                        metropolitan areas are Toronto, Montreal, and Vancouver.
+                    </p>
+                </div>
+            </section>
+            <section class="card">
+                <h1>Web Dev Resources</h1>
+                <ul>
+                    <li><a href="https://github.com/AnastasiyaShvydko">GitHub</a></li>
+                    <li><a href="https://www.w3schools.com">W3School</a></li>
+                    <li><a href="https://javascript.info">JavaScript Info</a></li>
+                </ul>
+            </section>
+            
+            
             
         </main>
-        <div class="right-section">Aside Content</div>
+    
         <footer class="footer">
-            <p><span id="currentyear"></span>Anastasiia Shvydko, Canada</p>
+            <p>&copy;<span id="currentyear"></span> Anastasiia Shvydko, Canada</p>
             <p id="lastModified"></p>
         </footer>
 
     </div>
+    <script src="./scripts/getdates.js"></script>
 </body>
 </html>
