@@ -1,6 +1,7 @@
 .parent{
     display: grid;
-    grid-template: auto 1fr auto/auto 1fr auto ;
+    grid-template: auto auto/auto auto ;
+    height: auto;
 }
 
 .header{
@@ -41,7 +42,7 @@
 .main-section{
     background-color: aliceblue;
     grid-column: 1/4;
-    height: 500pt;
+    height: auto;
     display: grid;
     grid-template: auto/auto auto ;
 
@@ -107,4 +108,16 @@ li:hover{
         justify-content: space-around;
         align-items: center;
     }
+    .parent{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .main-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+
   }
