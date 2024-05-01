@@ -1,0 +1,51 @@
+
+*{
+    margin: 0pt;
+    padding: 0pt;
+}
+header{
+    background-color: rgb(128, 128, 232);
+    display: grid;
+    grid-template: auto / auto auto;
+    align-items: center;
+    align-content: space-between;
+}
+h1{
+    padding-left: 10pt;
+}
+#menu{
+    display: block;
+    text-decoration: none;
+    font-size: 2em;
+    justify-self: flex-end;
+    padding-right: 10pt;
+    
+}
+#menu::before{
+    content: "☰";
+}
+
+.navigation{
+    list-style: none;
+    
+
+}
+.navigation li{
+    display: none;
+    text-align: center;
+}
+.navigation a{
+    display: block;
+}
+.show li{
+    display: block;
+    }
+
+#menu.show::before{
+content: "X";
+}
+#temple_figures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
