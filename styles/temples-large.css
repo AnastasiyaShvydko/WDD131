@@ -23,4 +23,9 @@
     nav{
         height: 100%;
     }
+    nav li:hover{
+        background-color: black;
+        color: aliceblue;
+        height: 100%;
+    }
 }
