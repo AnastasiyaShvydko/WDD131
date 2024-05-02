@@ -19,11 +19,7 @@
     img{
         max-width: 100%;
     }
-    .navigation li:hover{
-        background-color: black;
-        color: aliceblue;
-        height: 100%;
-    }
+ 
     nav{
         height: 100%;
     }

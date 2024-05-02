@@ -49,3 +49,8 @@ content: "X";
     flex-direction: column;
     align-items: center;
 }
+.navigation li:hover{
+    background-color: black;
+    color: aliceblue;
+    height: 100%;
+}
