@@ -49,7 +49,7 @@ content: "X";
     flex-direction: column;
     align-items: center;
 }
-nav li:hover{
+nav .navigation li:hover{
     background-color: black;
     color: aliceblue;
     height: 100%;
