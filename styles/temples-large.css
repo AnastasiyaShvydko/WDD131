@@ -14,7 +14,7 @@
         display: grid;
         grid-template: auto auto auto/auto auto auto;
         height: auto;
-        
+        grid-gap: 10px;
     }
     img{
         max-width: 100%;
@@ -23,9 +23,5 @@
     nav{
         height: 100%;
     }
-    nav li:hover{
-        background-color: black;
-        color: aliceblue;
-        height: 100%;
-    }
+    
 }
