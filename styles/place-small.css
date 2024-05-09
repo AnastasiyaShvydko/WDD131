@@ -1,0 +1,21 @@
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.one-line{
+    padding: 0px 10px 0px 10px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: end;
+    grid-gap: 10px;
+
+}
+.data{
+
+}

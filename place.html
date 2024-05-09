@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canada</title>
+    <script defer src="scripts/place.js"></script>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals Anastasiia Shvydko Place">
+    <meta name="author" content="Anastasiia Shvydko">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="stylesheet" href="styles/place-small.css">
+</head>
+<body>
+    <head></head>
+    <main>
+        <picture>
+            <source srcset="images/large-goose.webp" media="(min-width: 1000px)">
+            <source srcset="images/medium-goose.webp" media="(min-width: 500px)">
+            <img src="images/small-goose.webp" alt="Canadian goose" width="500" height="250">
+        </picture>
+        <div class="data">
+            <h2>Data</h2>
+            <form >
+                <div class="one-line">
+                    <div class="lable">Area:</label>
+                    <div id="area" type="text" value="9,984,670 sq km">
+                </div>
+                <div class="one-line">
+                    <div class="lable">Population:</label>
+                    <div id="population"type="text" value="40,000,000">
+                </div>
+                <div class="one-line">
+                    <label class="lable">Capital:</label>
+                    <div id="capital"type="text" value="Ottawa">
+                </div>
+                <div class="one-line">
+                    <label class="lable">Languages:</label>
+                    <div id="languages"type="text" value="English/French">
+                </div>
+                <div class="one-line">
+                    <label class="lable">Currency:</label>
+                    <div id="currency"type="text" value="Canadian Dollar">
+                </div>
+                <div class="one-line">
+                    <label class="lable">Time Zone:</label>
+                    <div id="time-zone"type="text" value="UTC-7 to UTC-2:30">
+                </div>
+                <div class="one-line">
+                    <div class="lable">Calling Code:</label>
+                    <div id="calling-code"type="text" value="+1">
+                </div>
+                <div class="one-line">
+                    <div class="lable">Internet TLD:</label>
+                    <div id="internet-tld"type="text" value=".ca">
+                </div>
+            </form>
+        </div>
+        <div>
+            <h2>Weather</h2>
+            
+                <div class="one-line">
+                    <div class="lable">Temperature:</div>
+                    <div class="value" id="temperature" value="10">10 °C</div>
+                </div>
+                <div class="one-line">
+                    <div class="lable">Conditions:</div>
+                    <input class="value" id="conditions" value="Partly Cloudy">
+                </div>
+                <div class="one-line">
+                    <div class="lable">Wind:</div>
+                    <div class="value"  id="wind" value="10"> 10 km/h</div>
+                </div>
+                <div class="one-line">
+                    <label class="lable">Wind Chill:</label>
+                    <input name="wind-chill" type="text" id="wind-chill">
+                </div>
+           
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
