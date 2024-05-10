@@ -52,6 +52,7 @@ header{
     background-color: black;
     color: var(--red);
     font-size: 2rem;
+    font-family:'Roboto', 'Arial Narrow', Arial, sans-serif ;
 }
 footer{
     background-color: black;
@@ -60,4 +61,6 @@ footer{
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    font-family:'Roboto', 'Arial Narrow', Arial, sans-serif ;
+
 }
