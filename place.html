@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canada</title>
     <script defer src="scripts/place.js"></script>
+    <script defer src="scripts/getdates.js"></script>
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals Anastasiia Shvydko Place">
     <meta name="author" content="Anastasiia Shvydko">
     <link rel="stylesheet" href="styles/place-large.css">
     <link rel="stylesheet" href="styles/place-small.css">
 </head>
 <body>
-    <head></head>
+    <header><h1>Canada</h1></header>
     <main>
         <picture>
             <source srcset="images/large-goose.webp" media="(min-width: 1000px)">
@@ -20,63 +21,67 @@
         </picture>
         <div class="data">
             <h2>Data</h2>
-            <form >
+
                 <div class="one-line">
-                    <div class="lable">Area:</label>
-                    <div id="area" type="text" value="9,984,670 sq km">
+                    <div class="lable">Area:</div>
+                    <div class="value" id="area">9,984,670 sq km</div>
                 </div>
                 <div class="one-line">
-                    <div class="lable">Population:</label>
-                    <div id="population"type="text" value="40,000,000">
+                    <div class="lable">Population:</div>
+                    <div class="value" id="population">40,000,000</div>
                 </div>
                 <div class="one-line">
-                    <label class="lable">Capital:</label>
-                    <div id="capital"type="text" value="Ottawa">
+                    <div class="lable">Capital:</div>
+                    <div class="value" id="capital">Ottawa</div>
                 </div>
                 <div class="one-line">
-                    <label class="lable">Languages:</label>
-                    <div id="languages"type="text" value="English/French">
+                    <div class="lable">Languages:</div>
+                    <div class="value" id="languages" >English/French</div>
                 </div>
                 <div class="one-line">
-                    <label class="lable">Currency:</label>
-                    <div id="currency"type="text" value="Canadian Dollar">
+                    <div class="lable">Currency:</div>
+                    <div class="value" id="currency" >Canadian Dollar</div>
                 </div>
                 <div class="one-line">
-                    <label class="lable">Time Zone:</label>
-                    <div id="time-zone"type="text" value="UTC-7 to UTC-2:30">
+                    <div class="lable">Time Zone:</div>
+                    <div class="value" id="time-zone" >UTC-7 to UTC-2:30</div>
                 </div>
                 <div class="one-line">
-                    <div class="lable">Calling Code:</label>
-                    <div id="calling-code"type="text" value="+1">
+                    <div class="lable">Calling Code:</div>
+                    <div class="value" id="calling-code" >+1</div>
                 </div>
                 <div class="one-line">
-                    <div class="lable">Internet TLD:</label>
-                    <div id="internet-tld"type="text" value=".ca">
+                    <div class="lable">Internet TLD:</div>
+                    <div class="value" id="internet-tld" >.ca</div>
                 </div>
-            </form>
+       
         </div>
-        <div>
+        <div class="weather">
             <h2>Weather</h2>
+            <img id="weather_icon" src="/assets/weather.png" alt="weather icon">
             
                 <div class="one-line">
                     <div class="lable">Temperature:</div>
-                    <div class="value" id="temperature" value="10">10 °C</div>
+                    <div class="value" ><span id="temperature">10</span>°C</div>
                 </div>
                 <div class="one-line">
                     <div class="lable">Conditions:</div>
-                    <input class="value" id="conditions" value="Partly Cloudy">
+                    <div class="value" id="conditions" >"Partly Cloudy"</div>
                 </div>
                 <div class="one-line">
                     <div class="lable">Wind:</div>
-                    <div class="value"  id="wind" value="10"> 10 km/h</div>
+                    <div class="value"  ><span id="wind">10</span>km/h</div>
                 </div>
                 <div class="one-line">
-                    <label class="lable">Wind Chill:</label>
-                    <input name="wind-chill" type="text" id="wind-chill">
+                    <div class="lable">Wind Chill:</div>
+                    <div class="value"  id="wind-chill"></div>
                 </div>
            
         </div>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <p>&copy;<span id="currentyear"></span> Anastasiia Shvydko, Canada</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>

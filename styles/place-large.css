@@ -1,0 +1,38 @@
+@media screen and (min-width: 860px){
+    main{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+    
+    }
+    .data{
+        grid-column: 1/2;
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 5%;
+
+    }
+    picture{
+        grid-column: 1/4;
+        object-fit: cover;
+        position: relative;
+    }
+    .weather{
+        grid-column: 3/4;
+        position: absolute;
+        margin-left: 70%;
+        margin-top: 20%;
+        z-index: 1;
+    }
+    .weather h2::after{
+        content: '     ⛅';
+        display: inline-block;
+    }
+    #weather_icon{
+        display: none;
+    }
+    h2{
+        margin-right: 50px;
+       
+    }
+    
+}
