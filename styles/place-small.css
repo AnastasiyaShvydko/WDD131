@@ -56,7 +56,7 @@ header{
 }
 footer{
     background-color: black;
-    color: var(--red);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
