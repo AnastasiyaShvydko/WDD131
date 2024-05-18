@@ -9,10 +9,12 @@ header{
     grid-template: auto / auto auto;
     align-items: center;
     align-content: space-between;
-    padding: 10px;
+    height: auto;
+    align-content: center;
 }
 h1{
     padding-left: 10pt;
+    text-align: center;
 }
 #menu{
     display: block;
@@ -56,12 +58,26 @@ content: "X";
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-
+    justify-content: space-around
 }
 nav a:hover{
     background-color: black;
     color: aliceblue;
     height: 100%;
     
+}
+figure{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+img {
+    padding: 10px;
+    height: 250px;
+    width: 400px;
 }
