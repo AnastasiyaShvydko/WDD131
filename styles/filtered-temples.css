@@ -46,6 +46,9 @@ h1{
     height: 100%;
     align-items: center;
     justify-content: center;
+    font-size: 1.2rem;
+    font-family:'Roboto', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 900;
 }
 .show li{
     display: block;
@@ -58,7 +61,7 @@ content: "X";
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around
+    justify-content: space-between;
 }
 nav a:hover{
     background-color: black;
@@ -80,4 +83,15 @@ img {
     padding: 10px;
     height: 250px;
     width: 400px;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family:'Roboto', 'Arial Narrow', Arial, sans-serif ;
+    height: 100px;
+
 }

@@ -103,6 +103,22 @@ const temples = [
       imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
+    {
+        templeName: "Apia Samoa Temple",
+        location: "Apia, Pesega, Samoa",
+        dedicated: "1983, August, 5",
+        area: 116642,
+        imageUrl:
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/apia-samoa/1280x800/apia-samoa-temple-lds-460475-wallpaper.jpg"
+      },
+      {
+        templeName: "Belém Brazil Temple",
+        location: "Belém, Para, Brazil",
+        dedicated: "2022, November, 20",
+        area: 116642,
+        imageUrl:
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/belem-brazil/1280x800/belem_brazil_temple_exterior2.jpg"
+      },
     // Add more temple objects here...
   ];
 

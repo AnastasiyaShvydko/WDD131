@@ -7,8 +7,11 @@
     <meta name="description" content="Temple Album">
     <meta name="author" content="Anastasiia Shvydko">
     <script defer src="scripts/filtered-temples.js"></script>
+    <script defer src="scripts/getdates.js"></script>
     <link rel="stylesheet" href="styles/filtered-temples.css">
     <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
 </head>
 <body>
     <header>
@@ -30,6 +33,9 @@
         
     </div>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <p>&copy;<span id="currentyear"></span> Anastasiia Shvydko, Canada</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
