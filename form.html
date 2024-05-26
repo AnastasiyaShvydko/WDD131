@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="/scripts/getdates.js"></script>
+    <script defer src="/scripts/form.js"></script>
+    <link rel="stylesheet" href="/styles/form.css">
+    <title>Product Review Form</title>
+</head>
+<body>
+    
+    <header>Product Review</header>
+    <main>
+        <div id="main_form">
+    <form action="/review_page.html">
+        <label for="products">Product Name</label>
+        <select id="products" name="products">
+          <option value="" selected disabled>Choose a product...</option> 
+          
+        </select><br>
+        <label>Overall Rating
+        <div class="stars">
+            <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+            <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+            <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+            <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+            <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+        </div>
+     </label>
+        <label>Date of installation
+        <input type="date" id="date_of_installation" name="date_of_installation"></label>
+        <p>Which features did you find useful in the product?<br>
+            (Check all that apply)
+
+        </p>
+        <label ><input type="checkbox" id="feature1" name="feature" value="Durability">Durability</label><br>
+        <label ><input type="checkbox" id="feature2" name="feature" value="Ease of use">Ease of use</label><br>
+        <label > <input type="checkbox" id="feature3" name="feature" value="Performance">Performance</label><br>
+        <label><input type="checkbox" id="feature4" name="feature" value="Design">Design</label><br><br>
+
+        <label>Written Review(Optional)
+        <input id="written_review" type="text"></label>
+        <label>Your Name(Optional)
+        <input id="user_name" type="text"></label>
+        <input type="submit" id="btn_submit" value="Post Review">
+
+    </form>
+    <!-- <div id="info">
+            
+
+    </div> -->
+</div>
+    </main>
+    <footer class="footer">
+        <p>&copy;<span id="currentyear"></span> Anastasiia Shvydko, Canada</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
