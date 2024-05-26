@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="/scripts/getdates.js"></script>
-    <script defer src="/scripts/form.js"></script>
+    <script defer src="scripts/getdates.js"></script>
+    <script defer src="scripts/form.js"></script>
     <link rel="stylesheet" href="/styles/form.css">
-    <title>Product Review Form</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals Anastasiia Shvydko Product Review">
+    <meta name="author" content="Anastasiia Shvydko">
+    <title>Product Review</title>
 </head>
 <body>
     
     <header>Product Review</header>
     <main>
         <div id="main_form">
-    <form action="/review_page.html">
+    <form action="/review.html" method="get">
         <label for="products">Product Name</label>
         <select id="products" name="products">
           <option value="" selected disabled>Choose a product...</option> 
           
         </select><br>
-        <label>Overall Rating
+        <h2>Overall Rating</h2>
         <div class="stars">
             <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
             <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
@@ -27,7 +29,6 @@
             <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
             <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
         </div>
-     </label>
         <label>Date of installation
         <input type="date" id="date_of_installation" name="date_of_installation"></label>
         <p>Which features did you find useful in the product?<br>
@@ -40,7 +41,7 @@
         <label><input type="checkbox" id="feature4" name="feature" value="Design">Design</label><br><br>
 
         <label>Written Review(Optional)
-        <input id="written_review" type="text"></label>
+        <input id="written_review" type="textarea"></label>
         <label>Your Name(Optional)
         <input id="user_name" type="text"></label>
         <input type="submit" id="btn_submit" value="Post Review">
