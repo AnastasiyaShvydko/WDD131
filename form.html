@@ -11,6 +11,7 @@
     <title>Product Review</title>
 </head>
 <body>
+    <div id="container">
     
     <header><h1>Product Review</h1></header>
     <main>
@@ -21,7 +22,7 @@
           <option value="" selected disabled>Choose a product...</option> 
           
         </select><br>
-        <h2>Overall Rating</h2>
+        <p>Overall Rating</p>
         <div class="stars">
             <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
             <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
@@ -29,10 +30,10 @@
             <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
             <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
         </div>
-        <label>Date of installation
+        <label>Date of installation<br>
         <input type="date" id="date_of_installation" name="date_of_installation"></label>
         <p>Which features did you find useful in the product?<br>
-            (Check all that apply)
+            (Check all that apply)<br>
 
         </p>
         <label ><input type="checkbox" id="feature1" name="feature" value="Durability">Durability</label><br>
@@ -40,9 +41,9 @@
         <label > <input type="checkbox" id="feature3" name="feature" value="Performance">Performance</label><br>
         <label><input type="checkbox" id="feature4" name="feature" value="Design">Design</label><br><br>
 
-        <label>Written Review(Optional)
+        <label>Written Review(Optional)<br>
         <textarea name="written_review" id="written_review"></textarea></label>
-        <label>Your Name(Optional)
+        <label>Your Name(Optional)<br>
         <input id="user_name" type="text"></label>
         <input type="submit" id="btn_submit" value="Post Review">
 
@@ -57,5 +58,6 @@
         <p>&copy;<span id="currentyear"></span> Anastasiia Shvydko, Canada</p>
         <p id="lastModified"></p>
     </footer>
+</div>
 </body>
 </html>
