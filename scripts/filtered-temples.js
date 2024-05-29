@@ -119,6 +119,15 @@ const temples = [
         imageUrl:
         "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/belem-brazil/1280x800/belem_brazil_temple_exterior2.jpg"
       },
+      {
+        templeName: "Kyiv Ukraine Temple",
+        location: "Kyevo-Sviatoshyns’ky Rayon, Kyiv, Ukraine",
+        dedicated: "2010, August, 29",
+        area: 116642,
+        imageUrl:
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/kyiv-ukraine/1280x800/kyiv-ukraine-temple-lds-774302-wallpaper.jpg"
+      },
+
     // Add more temple objects here...
   ];
 

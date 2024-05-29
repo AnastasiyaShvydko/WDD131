@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="scripts/getdates.js"></script>
+    <script defer src="scripts/form.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals Anastasiia Shvydko Project">
+    <meta name="author" content="Anastasiia Shvydko">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chivo+Mono&family=Kanit:wght@500&family=Orbitron&family=Oswald:wght@500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+80s+Fade&family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <title>Freedom Dance Studio</title>
+</head>
+<body>
+    <header>
+        <h1>Freedom<span id="second_line">Dance Studio</span></h1>
+        <nav>  
+            <ul class="navigation">
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="events">Events</a></li>
+                <li><a href="#" id="contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Dance to the Rhythm of Your Heartbeat...</h2>
+        <picture>
+            <source srcset="images/large.webp" media="(min-width: 1000px)">
+            <source srcset="images/medium.webp" media="(min-width: 500px)">
+            <img src="images/small.webp" alt="danser" width="750" height="500">
+        </picture>
+        <img class="symbol" src="images/disk.png" alt="">
+        <p id="text">Step into our vibrant dance studio where every movement 
+            is a masterpiece and every beat ignites the soul. With 
+            mirrored walls reflecting the passion of dancers and the
+             infectious rhythm of music, our space is alive with energy 
+             and creativity. Guided by experienced instructors, dancers
+              of all levels find themselves immersed in a world of classical 
+              ballet, sultry salsa, lively hip-hop, and intricate ballroom.
+               Here, laughter mixes with determination, fostering a supportive 
+               community where every dancer thrives. Join us in this sanctuary 
+               of expression and connection, where dreams take flight and every 
+               step is a celebration of the human spirit. Welcome to our dance family.</p>
+        <img class="symbol" src="images/disk.png" alt="">
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Anastasiia Shvydko, Canada</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
