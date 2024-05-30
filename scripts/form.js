@@ -109,23 +109,33 @@ btn_submit.addEventListener('click', (event) =>{
     }
         
      
-    //Get data from localStorage    
+    //Get data from localStorage   
+    
         let reviews = localStorage.getItem('test');
+        let arrayReviews = [];
+        if(reviews != null){
+             //Parse data and modify it into the array
+             let parsedArray = JSON.parse(reviews);
+             //new array assigned to an array from the localStorage
+             arrayReviews = parsedArray;
+           }
         
-        
-    //Parse data and modify it into the array
-        let parsedArray = JSON.parse(reviews);
-    //new array assigned to an array from the localStorage
-        let arrayReviews = parsedArray;
-    //Push new note into the array
+         //Push new note into the array
         arrayReviews.push(review);
-    //Turn array into the String because Local Storage keep  it as a string
+         //Turn array into the String because Local Storage keep  it as a string
         let stringarrayReviews = JSON.stringify(arrayReviews);
     
-    //Add new string into a localStorage   
+         //Add new string into a localStorage   
         localStorage.setItem('test', stringarrayReviews);
-    
+         
         console.log(stringarrayReviews);
+
+        
+    
+      
+   
+   
+   
     
        
         

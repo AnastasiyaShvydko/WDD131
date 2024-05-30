@@ -17,19 +17,19 @@ let reviews = localStorage.getItem('test');
                 let name_div = document.createElement('div');
                 name_div.innerHTML = info.product_name;
                 let product_rating_div = document.createElement('div');
-                if(info.product_rating == "1"){
+                if(info.product_rating == 1){
                     product_rating_div.innerHTML = "⭐";
                 }
-                else if(info.product_rating == "2"){
+                else if(info.product_rating == 2){
                     product_rating_div.innerHTML = "⭐⭐";
                 }
-                else if(info.product_rating == "3"){
+                else if(info.product_rating == 3){
                     product_rating_div.innerHTML = "⭐⭐⭐";
                 }
-                else if(info.product_rating == "4"){
+                else if(info.product_rating == 4){
                     product_rating_div.content = "⭐⭐⭐⭐";
                 }
-                else if(info.product_rating == "5"){
+                else if(info.product_rating == 5){
                     product_rating_div.innerHTML = "⭐⭐⭐⭐⭐";
                 }
                 
