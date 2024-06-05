@@ -70,6 +70,7 @@
 .one img{
     float: right;
     height: 200pt;
+    margin: 1rem 2rem;
 }
 .two img{
     float: left;

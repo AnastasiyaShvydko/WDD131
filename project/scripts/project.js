@@ -161,7 +161,7 @@ const loadForm = () =>{
     input_name.id = "name";
     input_name.placeholder = " First name"
     let lable_name = document.createElement('lable');
-    lable_name.innerHTML = "Name: </br>"
+    lable_name.textContent = "Name:"
     lable_name.appendChild(input_name);
     let input_email = document.createElement('input');
     input_email.type = "email";
